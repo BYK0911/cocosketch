@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3644258 */
+  src: url('iconfont.woff2?t=1708498796981') format('woff2'),
+       url('iconfont.woff?t=1708498796981') format('woff'),
+       url('iconfont.ttf?t=1708498796981') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle1:before {
+  content: "\e658";
+}
+
+.icon-paint_bucket:before {
+  content: "\e987";
+}
+
+.icon-refresh:before {
+  content: "\e67a";
+}
+
+.icon-home:before {
+  content: "\e821";
+}
+
+.icon-more:before {
+  content: "\e684";
+}
+
+.icon-pen:before {
+  content: "\e600";
+}
+
+.icon-marqueeminus:before {
+  content: "\e7d1";
+}
+
+.icon-download:before {
+  content: "\eaa3";
+}
+
+.icon-fullscreen:before {
+  content: "\e63f";
+}
+
+.icon-setting:before {
+  content: "\e649";
+}
+
+.icon-menu:before {
+  content: "\e704";
+}
+
+.icon-color-filling:before {
+  content: "\e7cd";
+}
+
+.icon-marquee:before {
+  content: "\e601";
+}
+
+.icon-marquee-add:before {
+  content: "\e602";
+}
+
+.icon-makebi:before {
+  content: "\e603";
+}
+
+.icon-brush:before {
+  content: "\ef53";
+}
+
+.icon-halfscreen:before {
+  content: "\e7ee";
+}
+
+.icon-lock:before {
+  content: "\e61c";
+}
+
+.icon-Brush-:before {
+  content: "\eaa8";
+}
+
+.icon-Undo:before {
+  content: "\ed85";
+}
+
+.icon-Redo:before {
+  content: "\ed8a";
+}
+
+.icon-photo:before {
+  content: "\e71a";
+}
+
+.icon-line-alt:before {
+  content: "\e815";
+}
+
+.icon-icon-export:before {
+  content: "\e627";
+}
+
+.icon-mark-pen-fill:before {
+  content: "\e63a";
+}
+
+.icon-pen1:before {
+  content: "\e861";
+}
+
+.icon-background-f:before {
+  content: "\e609";
+}
+
+.icon-unlock-f:before {
+  content: "\e65d";
+}
+
+.icon-save:before {
+  content: "\e604";
+}
+
+.icon-menu1:before {
+  content: "\e6a6";
+}
+
+.icon-circle:before {
+  content: "\e816";
+}
+
+.icon-star:before {
+  content: "\e82d";
+}
+
+.icon-frame:before {
+  content: "\e605";
+}
+
+.icon-Pen:before {
+  content: "\e77c";
+}
+
+.icon-delete:before {
+  content: "\e71f";
+}
+
+.icon-s-operation:before {
+  content: "\e678";
+}
+
+.icon-polygon:before {
+  content: "\e6b9";
+}
+
+.icon-video:before {
+  content: "\e690";
+}
+
+.icon-eraser:before {
+  content: "\eb26";
+}
+
+.icon-image:before {
+  content: "\eb50";
+}
+
+.icon-hand-drag:before {
+  content: "\e694";
+}
+

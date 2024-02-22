@@ -1,0 +1,66 @@
+:root {
+  --color-bg-base: #f5f6f7;
+  --color-bg-dark: #ccc;
+  --color-bg-light: #fff;
+  --color-bg-disabled: #ddd;
+
+  --color-text-base: #333;
+  --color-text-dark: #000;
+  --color-text-light: #666;
+  --color-text-disabled: #999;
+  --radius-base: 4px;
+}
+.theme-dark {
+  --color-bg-base: #333435;
+  --color-bg-dark: #000;
+  --color-bg-light: #535455;
+  --color-bg-disabled: #666768;
+  --color-text-base: #eee;
+  --color-text-dark: #ddd;
+  --color-text-light: #fff;
+  --color-text-disabled: #aaa;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-base);
+  color: var(--color-text-light);
+  overflow: hidden;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.flex, .flex-v, .justified {
+  display: flex;
+}
+.flex-v {
+  flex-direction: column;
+}
+.justified {
+  justify-items: space-between;
+}
+.flex-main {
+  flex: auto;
+  overflow: auto;
+}
+.flex-item {
+  flex-shrink: 0;
+  overflow: auto;
+}
+.text-center {
+  text-align: center;
+}
+
+.btn-tool {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
