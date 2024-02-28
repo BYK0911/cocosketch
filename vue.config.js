@@ -1,9 +1,10 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  publicPath: './',
   transpileDependencies: true,
   pwa: {
-    name: "Sketch2",
-    themeColor: "#eee",
+    name: "Sketch",
+    themeColor: "#00456b",
     appleMobileWebAppCapable: true,
     workboxOptions: {
       // 配置workbox
@@ -35,10 +36,10 @@ module.exports = defineConfig({
     manifestOptions: {
       name: 'Sketch',
       short_name: "Sketch",
-      theme_color: "#eee",
+      theme_color: "#00456b",
       start_url: ".",
       display: "standalone",
-      background_color: "#eee"
+      background_color: "#f6f7f8"
     },
     iconPaths: {
       faviconSVG: './favicon.png',
